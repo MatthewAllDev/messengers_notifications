@@ -1,7 +1,6 @@
-from aiogram import Bot as TgBot, Dispatcher, executor
-import asyncio
-from db import User
 import settings
+from aiogram import Bot as TgBot, Dispatcher, executor
+from db import User
 
 
 class Bot:

@@ -1,7 +1,8 @@
-from telegram_bot import bot
 from aiogram import types
-from ..keyboards import send_phone_number
 from db import User
+from telegram_bot import bot
+
+from ..keyboards import send_phone_number
 
 
 @bot.dispatcher.message_handler(commands=['start', 'help'])

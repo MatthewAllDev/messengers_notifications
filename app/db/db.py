@@ -1,7 +1,7 @@
+import settings
 import sqlalchemy
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import settings
 
 engine: sqlalchemy.engine.base.Engine = sqlalchemy.create_engine(f'sqlite:///{settings.db_path}', echo=False)
 Base = declarative_base()

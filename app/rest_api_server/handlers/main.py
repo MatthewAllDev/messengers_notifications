@@ -1,7 +1,8 @@
+import asyncio
+
 from flask import request, jsonify
 from rest_api_server import server
 from telegram_bot import bot as tg_bot
-import asyncio
 
 
 @server.route('/api/v1.0/send_notification', methods=['POST'])

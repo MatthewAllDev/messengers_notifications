@@ -1,5 +1,6 @@
-from flask import Flask
 import asyncio
+
+from flask import Flask
 
 
 class Server(Flask):
